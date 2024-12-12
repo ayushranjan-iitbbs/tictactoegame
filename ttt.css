@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:0;
+    color:white;
+    background-color:rgb(169, 239, 213);
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.959);
+}
+h4{
+    color:black;
+    text-shadow: 0 0 6px rgba(249, 249, 249, 0.959);
+}
+body{
+    background-color: rgb(144, 232, 203);
+    text-align:center;
+}
+
+.container{
+    height:70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius:1em;
+    border:none;
+    box-shadow:0 0 1em rgba(0,0,0,0.3);
+   font-size:6vmin;
+   text-shadow: 0 0 1px rgba(0, 0, 0, 0.959);
+   cursor: pointer;
+   background-color: antiquewhite;
+}
+
+#reset{
+    padding:10px;
+    font-size: 20px;
+    cursor: pointer;
+    color:white;
+    background-color:rgb(0, 0, 0);
+    border:none;
+    border-radius:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.959);
+}
+.msg-box{
+    margin-bottom:5vmin;;
+}
+#new-game{
+     
+    padding:10px;
+    color:white;
+    font-size: 20px;
+    background-color:rgb(5, 5, 5);
+    border:none;
+    cursor: pointer;
+    border-radius:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 0 0 0.5px rgba(0, 0, 0, 0.959);
+}
+#msg{
+    font-family: "Schibsted Grotesk",sans-serif;
+    margin-top:5px;
+    display: flex;
+     font-size:6vmin;
+    color:#4a3f02;
+    text-shadow: 0 0 0.9px rgba(255, 255, 255, 0.959);
+}
+.hide{
+    display: none;
+}
